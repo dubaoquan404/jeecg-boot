@@ -25,7 +25,7 @@
 		<alibaba.nacos.version>2.0.4</alibaba.nacos.version>
 
 		<xxl-job-core.version>2.2.0</xxl-job-core.version>
-        <fastjson.version>1.2.78</fastjson.version>
+        <fastjson.version>1.2.83</fastjson.version>
 		<knife4j-spring-boot-starter.version>3.0.3</knife4j-spring-boot-starter.version>
 		<knife4j-spring-ui.version>2.0.9</knife4j-spring-ui.version>
 		<!-- 数据库驱动 -->
@@ -203,7 +203,22 @@
 				<artifactId>jeecg-boot-starter-shardingsphere</artifactId>
 				<version>${jeecgboot.version}</version>
 			</dependency>
-
+			<dependency>
+				<groupId>org.hibernate</groupId>
+				<artifactId>hibernate-core</artifactId>
+				<version>5.6.7.Final</version>
+				<exclusions>
+					<exclusion>
+						<groupId>commons-collections</groupId>
+						<artifactId>commons-collections</artifactId>
+					</exclusion>
+				</exclusions>
+			</dependency>
+			<dependency>
+				<groupId>org.jeecgframework.boot</groupId>
+				<artifactId>hibernate-re</artifactId>
+				<version>3.2.0-beta</version>
+			</dependency>
 
 			<!-- 七牛云SDK -->
 			<dependency>
@@ -309,7 +324,7 @@
 			<dependency>
 				<groupId>org.jeecgframework</groupId>
 				<artifactId>jeewx-api</artifactId>
-				<version>1.4.7</version>
+				<version>1.4.8</version>
 				<exclusions>
 					<exclusion>
 						<artifactId>commons-beanutils</artifactId>
