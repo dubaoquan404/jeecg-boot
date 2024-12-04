@@ -18,7 +18,7 @@ JeecgBoot 低代码开发平台
 
 <h3 align="center">Java Low Code Platform for Enterprise web applications</h3>
 
-JeecgBoot 是一款基于代码生成器的`低代码开发平台`！前后端分离架构 SpringBoot2.x和3.x，SpringCloud，Ant Design Vue3，Mybatis-plus，Shiro，JWT，支持微服务。强大的代码生成器让前后端代码一键生成，实现低代码开发!  JeecgBoot 引领新的低代码开发模式(OnlineCoding-> 代码生成器-> 手工MERGE)， 帮助解决Java项目70%的重复工作，让开发更多关注业务。既能快速提高效率，节省研发成本，同时又不失灵活性！
+JeecgBoot 是一款基于代码生成器的`低代码开发平台`！前后端分离架构 SpringBoot2.x和3.x，SpringCloud，Ant Design Vue3，Mybatis-plus，Shiro，JWT，支持微服务。强大的代码生成器让前后端代码一键生成，实现低代码开发!  JeecgBoot集成AI模型能力，引领新的低代码开发模式(OnlineCoding-> 代码生成器-> 手工MERGE)， 帮助解决Java项目70%的重复工作，让开发更多关注业务。既能快速提高效率，节省研发成本，同时又不失灵活性！
 
 JeecgBoot 提供了一系列`低代码模块`，实现在线开发`真正的零代码`：Online表单开发、Online报表、报表配置能力、在线图表设计、仪表盘设计、大屏设计、移动配置能力、表单设计器、在线设计流程、流程自动化配置、插件能力（可插拔）等等！
 
@@ -33,7 +33,6 @@ JeecgBoot 提供了一系列`低代码模块`，实现在线开发`真正的零�
 Jeecg-Boot低代码开发平台，可以应用在任何J2EE项目的开发中，支持信创国产化（默认适配达梦和人大金仓）。尤其适合SAAS项目、企业信息管理系统（MIS）、内部办公系统（OA）、企业资源计划系统（ERP）、客户关系管理系统（CRM）等，其半智能手工Merge的开发方式，可以显著提高开发效率70%以上，极大降低开发成本。
 
 
-
 #### 项目说明
 
 | 项目名                | 说明                     | 
@@ -41,6 +40,17 @@ Jeecg-Boot低代码开发平台，可以应用在任何J2EE项目的开发中，
 | `jeecg-boot`    | 后端源码JAVA（SpringBoot微服务架构）        |
 | `jeecgboot-vue3` | 前端源码VUE3（vue3+vite5+ts最新技术栈）  |
 | `jeecg-uniapp` | [配套APP框架](https://github.com/jeecgboot/jeecg-uniapp) 适配多个终端，支持APP、小程序、H5 |
+
+
+开源协议说明
+-----------------------------------
+JeecgBoot开源版本，底层完全开源可以自主开发，遵循Apache2.0协议，详细见 https://github.com/jeecgboot/JeecgBoot#Apache-2.0-1-ov-file
+
+开源协议中文释意如下：
+- 1.JeecgBoot开源版本无任何限制，在遵循本开源协议条款下，允许商用使用，不会造成侵权行为。
+- 2.允许基于本平台软件开展业务系统开发。
+- 3.在任何情况下，您不得使用本软件开发可能被认为与本软件竞争的软件。
+- 4.针对企业用户我们也提供“企业级版本”，详细见 https://jeecg.com/vip
 
 
 技术文档
@@ -51,7 +61,7 @@ Jeecg-Boot低代码开发平台，可以应用在任何J2EE项目的开发中，
 - 开发文档：  [https://help.jeecg.com](https://help.jeecg.com)
 - 反馈问题：  [在Github上提Issues](https://github.com/jeecgboot/JeecgBoot/issues/new)
 - 新手指南： [快速入门](http://www.jeecg.com/doc/quickstart) | [入门视频](http://jeecg.com/doc/video)
-- QQ交流群 ： ⑨808791225、其他(满)
+- QQ交流群 ： ⑩716488839、⑨808791225(满)、其他(满)
 
 
 
@@ -152,7 +162,7 @@ Jeecg-Boot低代码开发平台，可以应用在任何J2EE项目的开发中，
 -----------------------------------
 * 1.采用最新主流前后分离框架（Springboot+Mybatis+antd+vue3），容易上手; 代码生成器依赖性低,灵活的扩展能力，可快速实现二次开发;
 * 2.支持微服务SpringCloud Alibaba(Nacos、Gateway、Sentinel、Skywalking)，提供切换机制支持单体和微服务自由切换
-* 3.开发效率高,采用代码生成器，单表、树列表、一对多、一对一等数据模型，增删改查功能一键生成，菜单配置直接使用；
+* 3.开发效率高,采用代码生成器，单表、树列表、一对多、一对一等数据模型，增删改查功能一键生成，菜单配置直接使用；引入AI能力，支持自动建表等功能；
 * 4.代码生成器提供强大模板机制，支持自定义模板，目前提供四套风格模板（单表两套、树模型一套、一对多三套）
 * 5.代码生成器非常智能，在线业务建模、在线配置、所见即所得支持23种类控件，一键生成前后端代码，大幅度提升开发效率，不再为重复工作发愁。
 * 6.低代码能力：Online在线表单（无需编码，通过在线配置表单，实现表单的增删改查，支持单表、树、一对多、一对一等模型，实现人人皆可编码）
